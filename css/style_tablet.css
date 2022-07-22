@@ -42,8 +42,8 @@ img {
 }
 
 /************************************************
-    UTILITIES
- ************************************************/
+     UTILITIES
+  ************************************************/
 
 /* LAYOUT */
 .container {
@@ -67,8 +67,8 @@ img {
 }
 
 /************************************************
-    SITE SECTIONS
- ************************************************/
+     SITE SECTIONS
+  ************************************************/
 
 /* HEADER */
 .site-header {
@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -125,5 +126,29 @@ img {
 }
 
 /************************************************
-    SOLUZIONE RESPONSIVE
- ************************************************/
+     SOLUZIONE RESPONSIVE
+  ************************************************/
+
+@media screen and (max-width: 780px) {
+
+    .text-center,
+    .why-us {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+
+    .steps {
+        background-color: #eebbc3;
+    }
+
+    .steps h2,
+    .steps h3,
+    .steps p {
+        color: #232946;
+    }
+}
