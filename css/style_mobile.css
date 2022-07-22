@@ -183,3 +183,9 @@ img {
         color: #232946;
     }
 }
+
+@media screen and (min-width: 480px) and (max-width: 1160px) {
+    body {
+        overflow: hidden;
+    }
+}
